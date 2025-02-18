@@ -28,7 +28,10 @@ namespace ExamCore.Application.Configurations
             #region Add Manager and Repository Services
             services.AddScoped<ICountryManager, CountryManager>();
             services.AddScoped<ICountryRepository, CountryRepository>();
-            
+
+            services.AddScoped<ICityManager, CityManager>();
+            services.AddScoped<ICityRepository, CityRepository>();
+
             #endregion
 
             return services;

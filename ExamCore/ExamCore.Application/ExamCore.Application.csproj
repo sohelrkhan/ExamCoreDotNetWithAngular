@@ -10,4 +10,8 @@
     <ProjectReference Include="..\ExamCore.Manager\ExamCore.Manager.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ApplicationLogic\CityLogic\Queries\" />
+  </ItemGroup>
+
 </Project>

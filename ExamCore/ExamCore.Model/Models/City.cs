@@ -14,6 +14,7 @@ namespace ExamCore.Model.Models
         public string Name { get; set; }
 
         //Foreign Key
+        [Required]
         public int CountryId { get; set; }
 
         public string CreatedById { get; set; }
